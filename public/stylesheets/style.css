@@ -1,0 +1,65 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#lisollano{
+  background-color: #000010;
+}
+
+#principal{
+  background-color: black ;
+  padding-bottom: 100%;
+  font-family: "Anta", sans-serif;
+  color : white;
+}
+
+.hero{
+  background: url(../images/hero.jpg);
+  background-size : cover;
+  height : 1vh;
+  width : 100%;
+  min-height : 700px;
+  color : white;
+  font-family: "Anta", sans-serif;
+}
+
+.titulos{
+  padding-top: 10px;
+  border-bottom: 3px solid white;
+  font-size: large;
+  color : white;
+  font-family: "Anta";
+}
+
+.tarjeta{
+  color : black;
+  padding-top : 20px;
+}
+
+.apunte {
+  border-bottom: solid white;
+  color : white;
+  font-family : "Anta";
+  font-size: x-large;
+  padding-top: 25px;
+}
+
+.utilidad{
+  color : #CCCCCC;
+  font-family : "Anta";
+  font-size: x-small;
+  padding-top: 5px;
+  font-style: oblique;
+  padding-bottom : 20px;
+}
+
+.contenido{
+  font-family: "Anta";
+  color : white;
+  font-size: small;
+}

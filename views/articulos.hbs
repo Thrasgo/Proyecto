@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="titulos">Articulos</div>
+    <div style="padding-bottom: 20px;"></div> <!-- Divisoria por razones de diseño -->
+    {{#each novedades}}
+    <div class="card text-bg-dark">
+        <img src="images/noticia{{num}}.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <h5 class="card-title">{{titulo}}
+            </h5>
+            <p class="card-text">{{cuerpo}}</p>
+            <p class="card-text"><small>Actualizado {{fecha}}</small></p>
+            <a href="{{dir}}"
+                class="btn btn-primary">Link de la noticia aquí</a>
+        </div>
+    </div>
+    {{/each}}
+</div>

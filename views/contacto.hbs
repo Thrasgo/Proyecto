@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row apunte">Contacto</div>
+    <div class="row utilidad">Escribe aqui tu mensaje. Un administrador de seguro lo leera.</div>
+    <form action="/contacto" method="post" class="formulario contenido">
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre" name="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" placeholder="Apellido" name="apellido">
+        <label for="email">E-Mail</label>
+        <input type="text" placeholder="email@email.com" name="email">
+        <label for="asunto" class="form-label">Asunto</label>
+        <input class="form-control" list="datalistOptions" name="asunto" placeholder="Clickea Aqui...">
+        <datalist id="datalistOptions">
+            <option value="Consultas">
+            <option value="Opiniones">
+            <option value="Reporte Bugs">
+            <option value="Copyright">
+            <option value="Insultos">
+        </datalist>
+        <label for="mensaje">Mensaje</label>
+        <textarea class="form-control" name="mensaje" placeholder="Escribe aqui tu mensaje..."></textarea>
+        <p>{{{menssage}}}</p>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
